@@ -68,5 +68,9 @@ heap_t *heap_insert(heap_t **root, int value);
 heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
+void print_node(const binary_tree_t *tree, void (*func)(int), size_t i_node);
+int recursive(const binary_tree_t *rec, int i, int j);
+int _count(const binary_tree_t *rec);
+int bst_recursive(const binary_tree_t *tree, const binary_tree_t **new);
 
 #endif
