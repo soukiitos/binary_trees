@@ -73,5 +73,6 @@ int recursive(const binary_tree_t *rec, int i, int j);
 int _count(const binary_tree_t *rec);
 int bst_recursive(const binary_tree_t *tree, const binary_tree_t **new);
 avl_t *node_insert(avl_t **tree, avl_t *parent, avl_t **new, int tmp);
+avl_t *sorted_array(avl_t *parent, int *array, int beg, int end);
 
 #endif
